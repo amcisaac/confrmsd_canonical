@@ -1,0 +1,30 @@
+name: confrmsd_nocanon_newqcportal
+channels:
+  - conda-forge
+  - openeye
+dependencies:
+  - python
+  # MM calculations
+  - openff-toolkit-base
+  - openeye-toolkits==2022.1.1
+  - openff-interchange-base
+  - pymbar=3.1.0
+  - openff-forcefields
+  - openff-qcsubmit==0.52
+  - openff-bespokefit
+  - qcportal
+  - tqdm
+  - openmm 
+  - openmmforcefields
+  - conda-forge::libiconv
+  - ambertools
+  - qubekit
+  - ndcctools
+  - cmiles
+  - geometric
+  - click
+  - jupyter
+  - black
+  - isort
+  - flake8 
+  - mamba
